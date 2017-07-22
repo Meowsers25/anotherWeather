@@ -9,3 +9,4 @@ if (navigator.geolocation) {
    //console.log(lat);
  });
 }
+// note
