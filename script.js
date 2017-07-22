@@ -10,3 +10,5 @@ if (navigator.geolocation) {
  });
 }
 // note
+
+// 2nd note
