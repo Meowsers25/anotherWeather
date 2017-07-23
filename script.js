@@ -11,10 +11,10 @@ $(document).ready(function() {
     });
   }
 
-  var api="http://api.wunderground.com/api/2ab250a47985fdce/geolookup/q/" + lat + "," + long + ".json";
+  var api="https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=cee0ec3127304f7183f6cfa83d7e11dd";
   $.getJSON(api, function(data) {
-    //alert(data.location.lat);
-    console.log(api);
+    alert(data.main.temp);
+    //console.log(data.weather.main);
   });
 
 });
